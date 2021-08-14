@@ -1,0 +1,15 @@
+.cat_blocks {
+  display: flex;
+  justify-content: space-between;
+
+  .content_block{
+    width: 89%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media (max-width: 920px) {
+      width: 79%;
+    }
+  }
+}

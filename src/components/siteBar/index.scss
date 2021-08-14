@@ -1,0 +1,28 @@
+
+  .site_bar_block {
+    width: 10%;
+    display: inline-block;
+    border-right: 1px solid #a4a4a4;
+    @media (max-width: 920px) {
+      width: 20%;
+    }
+    .sitebar_wrapper {
+
+      .link_cat {
+        color: #000;
+        text-transform: capitalize;
+        text-decoration: none;
+        margin-bottom: 10px;
+        display: inherit;
+        transition: all .5s ease;
+        &:hover {
+          color: #fff;
+        }
+        &:active{
+          color:#fff;
+        }&:focus{
+          color:#fff;
+        }
+      }
+    }
+  }
